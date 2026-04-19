@@ -1,0 +1,36 @@
+# Build artifacts
+src/engine
+src/monitor.ko
+src/monitor.mod
+src/monitor.mod.c
+src/monitor.mod.o
+src/monitor.o
+src/cpu_hog
+src/io_pulse
+src/memory_hog
+src/*.o
+src/*.ko
+src/*.mod
+src/*.order
+src/*.symvers
+src/.tmp_versions/
+src/Module.symvers
+src/modules.order
+
+# Runtime directories (created during demo)
+src/rootfs-base/
+src/rootfs-alpha/
+src/rootfs-beta/
+src/rootfs-gamma/
+src/rootfs-exp1/
+src/rootfs-exp2/
+src/logs/
+src/*.tar.gz
+
+# macOS
+.DS_Store
+__MACOSX/
+
+# Editor
+.vscode/
+*.swp
